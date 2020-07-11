@@ -58,8 +58,8 @@ Time = pygame.time.Clock()
 windowSurface = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
 pygame.display.set_caption('Ap0110_Simu')
 pygame.mouse.set_visible(False)
-crash_sound = pygame.mixer.Sound('J:\VSCODE\Ap011o_Simulator Folder\implode.wav')
-rocket_launch = pygame.mixer.Sound('J:\VSCODE\pictures\The Ultimate Saturn V Launch Video with INCREDIBLE SOUND!!!.wav')
+crash_sound = pygame.mixer.Sound('implode.wav')
+rocket_launch = pygame.mixer.Sound('The Ultimate Saturn V Launch Video with INCREDIBLE SOUND!!!.wav')
 # Fonts For Title
 font = pygame.font.SysFont(None, 48)
 
